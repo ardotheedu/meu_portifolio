@@ -13,7 +13,7 @@ function Homepage() {
   }, [])
   return (
     <div>
-      <title>Home | ig.news</title>
+      <title>Home</title>
       <Header />
 
       <main className="contentContainer">
@@ -30,7 +30,7 @@ function Homepage() {
               Recrute esse astronauta para ter paginas de outro mundo.
             </p>
           </div>
-          <Link to="/homepage" className="button">
+          <Link to="/contato" className="button">
             RECRUTAR
           </Link>
         </section>
