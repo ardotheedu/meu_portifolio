@@ -10,7 +10,7 @@ function App() {
   const [time, setTime] = useState(0);
   const [isActive, setIsActive] = useState(true)
   const [isLoading, setIsLoading] = useState(false)
-  const speed = useRef(1);
+  const speed = useRef(0.2);
 
   useEffect(() => {
       let x = document.createElement("canvas");
