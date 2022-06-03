@@ -4,7 +4,7 @@ import hero from '../../images/amico.svg'
 import {Header} from '../../components/Header'
 import { Link } from "react-router-dom";
 
-function Portifolio() {
+function Servicos() {
   useEffect(() => {
     const canvas = document.getElementById('canvas')
     if(canvas) {
@@ -24,4 +24,4 @@ function Portifolio() {
   )
 }
 
-export default Portifolio;
+export default Servicos;
